@@ -7,7 +7,7 @@ app = Flask(__name__)
 #forming database connection 
 def get_database():
     return mysql.connector.connect(
-        host='172.31.20.27',
+       host='52.205.228.83',
         user='root',
         password='Drishty2005$',
         database='InventoryDB'
